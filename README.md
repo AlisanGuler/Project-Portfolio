@@ -1,4 +1,4 @@
-# Portfolio Project - (TypeScript)
+# Portfolio Project #
 
 #### by Alişan Güler
 
@@ -28,15 +28,16 @@ I've created a portfolio example for software and web developers.
 
 # Screenshots
 
-<img src="/Site foto.png">
+<img src="\img\Site foto.png" height="600" >
 
 # Gif
 
-<img src="/Site Gif.gif">
+<img src="\img\Site Gif.gif" height="600" >
 
-# Installation
 
-To see this project locally, you can run take a look at it on netlify:
+# Viewing the Project Online
+
+You can view this project online by visiting the Netlify deployment.
 
 <a href="https://alisangulerportfolioproject.netlify.app/"> Click Here </a>
 
