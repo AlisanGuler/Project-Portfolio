@@ -1,0 +1,263 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+/* format */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+html{scroll-behavior: smooth;
+
+}
+
+/* HEADER Start */
+header{
+    background-color: rgba(34, 34, 34, 0.9);
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    border-bottom: 2px solid #fff;
+}
+
+.navbar{ 
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 2px auto;
+    padding: 10px 0;
+    justify-content: space-between;
+
+}
+
+.navlink{
+    display: flex;
+    
+
+}
+
+.navlink li a{
+    color: aliceblue;
+    margin-left: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+.navlink li a:hover{
+    background-color: #24CAAC;
+
+} 
+
+.logo h2 a{
+    color: wheat;
+    text-transform:uppercase ;
+}
+/* HEADER END */
+
+/* SECTION START */
+section{
+    padding: 100px 0;
+    background-color: #112E44;
+
+}
+img{
+    width: 100%;
+
+}
+/* HOME SECTION START */
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: white;
+}
+
+.home_child{
+    flex-basis: 45%;
+
+}
+.home_child h1{
+    color: #24CAAC;
+    font-size: 50px;
+}
+.span1{
+    color: #DF376E;
+}
+.span2{
+    color:#DF376E;
+
+}
+.home_child p{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.btn{
+    background-color: #24CAAC;
+    padding: 12px 40px;
+    border-radius: 16px;
+    color: white;
+    font-size: large;
+    border: 1px solid #fff;
+}
+.btn:hover{
+    cursor:pointer ;
+    background-color: transparent;
+    letter-spacing: 1px;
+}
+
+
+
+
+/* HOME SECTION END */
+
+/* SOFTWARE SECTION STARTS */
+
+.section_title{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 50px;
+    transition: .5s all ease-in-out;
+    position: relative;
+}
+
+.section_title:hover{
+    background-color: #24CAAC;
+}
+
+.software{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.software_child{
+    color: #fff;
+    background-color: #01101a;
+    flex-basis: 30%;
+    padding: 25px 30px;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+    height: 350px;
+    width: 170px;
+}
+.software_child:hover{
+    border: 1px solid #24CAAC;
+}
+.software_child .icon{
+    color: #24CAAC;
+    font-size: 25px;
+}
+.software_child h3{
+    font-size: 20px;
+}
+/* SOFTWARE SECTION ENDS */
+/* CERTIFICATES SECTION STARTS */
+    .certificates{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+.certificates_child{
+    flex-basis: 24%;
+    color: white;
+    padding: 20px 10px;
+    border: 1px solid transparent;
+    transition: all .5s ease-in-out;
+    border-radius: 5px;
+}
+.certificates_child:hover{
+    border: 1px solid #24CAAC;
+}
+.certificates_child .detail{
+    display: flex;
+    justify-content: space-between;
+    }
+.certificates_child .detail ul{
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 50%;
+}
+
+.certificates_child .detail ul li{
+    color: gold;
+}
+/* CERTIFICATES SECTION ENDS */
+
+/* ACHIEVEMENTS SECTION STARTS */
+.achievement{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.achievement_child{
+    flex-basis: 40%;
+}
+.achievement_child img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.achievement_child2{
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.single_detail{
+    flex-basis: 40%;
+    padding: 40px 30px;
+    color: #fff;
+    border-radius: 5px;
+    transition: all .5s ease-in-out;
+}
+
+.single_detail:hover{
+    transform: scale(1.05);
+}
+
+.sd_1{
+    background-color: #EAA022;
+    margin-bottom: 20px;
+}
+
+.sd_2{
+    background-color: #e91e62;
+    margin-bottom: 20px;
+}
+.sd_3{
+    background-color: #24CAAC;
+    margin-bottom: 20px;
+}
+.sd_4{
+    background-color: #2e363e;
+    margin-bottom: 20px;
+}
+
+
+
+
+/* ACHIEVEMENTS SECTION ENDS */
