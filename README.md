@@ -39,7 +39,7 @@ I've created a portfolio example for software and web developers.
 
 You can view this project online by visiting the Netlify deployment.
 
-<a href="https://alisangulerportfolioproject.netlify.app/"> Click Here </a>
+<a href="https://alisangulerportfolio.netlify.app/"> Click Here </a>
 
 # Contributing
 
