@@ -28,11 +28,11 @@ I've created a portfolio example for software and web developers.
 
 # Screenshots
 
-<img src="\img\Site foto.png" height="600" >
+<img src="\img\Site foto.png" max-width="100%" height="600" >
 
 # Gif
 
-<img src="\img\Site Gif.gif" height="600" >
+<img src="\img\Site Gif.gif" max-width="100%" height="auto" >
 
 
 # Viewing the Project Online
