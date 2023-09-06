@@ -261,3 +261,79 @@ img{
 
 
 /* ACHIEVEMENTS SECTION ENDS */
+
+/* MEDIA QUERIES STARTS */
+
+@media screen and (max-width: 768px) {
+  
+    header {
+      width: 100%;
+      padding: 10px 0;
+    }
+  
+    .navbar {
+      width: 90%; 
+      margin-bottom: 0 auto;
+      flex-direction: column; 
+    }
+  
+    .navlink {
+      flex-direction: column; 
+      text-align: center; 
+      margin-bottom: 0px;
+    }
+  
+    .navlink li {
+      margin-bottom: 10px; 
+    }
+  
+    .home {
+      flex-direction: column; 
+      text-align: center; 
+    }
+  
+    .home_child {
+      flex-basis: 100%; 
+      margin-top: 100px;
+    }
+  
+    .home_child h1 {
+      font-size: 40px; 
+    }
+  
+    .home_child p {
+      font-size: 18px;
+    }
+  
+    .btn {
+      font-size: 16px;
+    }
+  
+    .software {
+      flex-direction: column; 
+      text-align: center;
+    }
+
+    .software_child {
+      flex-basis: 80%; 
+      margin: 0 auto;
+    }
+  
+    .certificates {
+      flex-direction: column; 
+    }
+  
+    .certificates_child {
+      flex-basis: 100%; 
+      margin-bottom: 20px; 
+    }
+  
+    .achievement {
+      flex-direction: column; 
+    }
+  
+    .achievement_child {
+      flex-basis: 100%; 
+    }
+  }
+  /* MEDIA QUERIES ENDS */
